@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/sportif_react/static/css/main.631f55cd.css",
+    "main.js": "/sportif_react/static/js/main.2992e45a.js",
+    "static/media/new powel print shirt.png": "/sportif_react/static/media/new powel print shirt.bd592110b1c51223612d.png",
+    "static/media/sport_original_pant.png": "/sportif_react/static/media/sport_original_pant.5493e04261c4561ed96c.png",
+    "static/media/ecoths.png": "/sportif_react/static/media/ecoths.14c602e5828081721648.png",
+    "static/media/trousers_main.png": "/sportif_react/static/media/trousers_main.d7cc269e3b7e846c2a1e.png",
+    "static/media/main_banner.png": "/sportif_react/static/media/main_banner.a3c4b2777a0235ef50e6.png",
+    "static/media/50years.png": "/sportif_react/static/media/50years.ad8f619b6b250c856917.png",
+    "static/media/belts.png": "/sportif_react/static/media/belts.c4c7f12650f16fa8b32b.png",
+    "static/media/online_catalog.png": "/sportif_react/static/media/online_catalog.fb62a0ae38be61ed4d62.png",
+    "static/media/swim_trunk.png": "/sportif_react/static/media/swim_trunk.ba849c4b85d5bbde4212.png",
+    "static/media/short_9.png": "/sportif_react/static/media/short_9.a1ac50e8f24f2d824c43.png",
+    "static/media/short_2.png": "/sportif_react/static/media/short_2.8ff47b75702c1e729b89.png",
+    "static/media/short_4.png": "/sportif_react/static/media/short_4.5bafdb520a83a8b3af41.png",
+    "static/media/short_3.png": "/sportif_react/static/media/short_3.ab6748f239d72f2dc718.png",
+    "static/media/free-delivery.svg": "/sportif_react/static/media/free-delivery.64db1d0e29bc01e01f55d6fbe5a3b475.svg",
+    "static/media/exchange.svg": "/sportif_react/static/media/exchange.2944ec4e801d1f4f63e5c5d87125d864.svg",
+    "static/media/link.svg": "/sportif_react/static/media/link.d54a93073d2c742a0d94c554c2f26445.svg",
+    "static/media/twitter 1.svg": "/sportif_react/static/media/twitter 1.2cd171aa43722155ac1b0476625d742f.svg",
+    "static/media/pinterest.svg": "/sportif_react/static/media/pinterest.0d3ed2fec43f9d606305c34adf399dbe.svg",
+    "static/media/loop.svg": "/sportif_react/static/media/loop.74c0151f68a74a4997f2.svg",
+    "static/media/like.svg": "/sportif_react/static/media/like.91ab11b5d6ab9e123833.svg",
+    "static/media/facebook.svg": "/sportif_react/static/media/facebook.7d52b95b709f84733b7c20ae1b9c7394.svg",
+    "index.html": "/sportif_react/index.html",
+    "main.631f55cd.css.map": "/sportif_react/static/css/main.631f55cd.css.map",
+    "main.2992e45a.js.map": "/sportif_react/static/js/main.2992e45a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.631f55cd.css",
+    "static/js/main.2992e45a.js"
+  ]
+}
