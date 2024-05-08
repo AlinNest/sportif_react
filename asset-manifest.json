@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sportif_react/static/css/main.631f55cd.css",
-    "main.js": "/sportif_react/static/js/main.fb58d0f5.js",
+    "main.js": "/sportif_react/static/js/main.5827ad0e.js",
     "static/media/new powel print shirt.png": "/sportif_react/static/media/new powel print shirt.bd592110b1c51223612d.png",
     "static/media/sport_original_pant.png": "/sportif_react/static/media/sport_original_pant.5493e04261c4561ed96c.png",
     "static/media/ecoths.png": "/sportif_react/static/media/ecoths.14c602e5828081721648.png",
@@ -25,10 +25,10 @@
     "static/media/facebook.svg": "/sportif_react/static/media/facebook.7d52b95b709f84733b7c20ae1b9c7394.svg",
     "index.html": "/sportif_react/index.html",
     "main.631f55cd.css.map": "/sportif_react/static/css/main.631f55cd.css.map",
-    "main.fb58d0f5.js.map": "/sportif_react/static/js/main.fb58d0f5.js.map"
+    "main.5827ad0e.js.map": "/sportif_react/static/js/main.5827ad0e.js.map"
   },
   "entrypoints": [
     "static/css/main.631f55cd.css",
-    "static/js/main.fb58d0f5.js"
+    "static/js/main.5827ad0e.js"
   ]
 }
