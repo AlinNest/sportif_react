@@ -1,0 +1,21 @@
+.catalog_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+
+.text{
+ text-align: center;
+ font-size: 30px;
+ display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .catalog_cards {
+    margin-right: 1px;
+  }
+}  
+

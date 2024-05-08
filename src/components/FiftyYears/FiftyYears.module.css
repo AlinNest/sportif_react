@@ -1,0 +1,59 @@
+.fiftyyears{
+  min-height: 614px;
+  background: #F3F3F3 url(../../assets/50years.png);
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  color: #000000;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  padding: 15px;
+}
+
+.title_fiftyyears{
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 96px;
+  color: #001F3D;
+  margin-bottom: 20px;
+  padding-top: 285px;
+}
+
+.description_fiftyyears{
+  margin-bottom: 35px;
+}
+
+.button_fiftyyears{
+  border: 1px solid black;
+  max-width: 261px;
+  min-height: 55px;
+  padding: 5px 73px 0 73px;
+  display: inline-block;
+}
+
+.button_down{
+  position: fixed;
+  right: 40px;
+  background-color: #A04955;
+  border-radius: 50%;
+  width: 83px;
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 85%;
+}
+
+@media screen and (max-width: 767px) {
+
+     .title_fiftyyears{
+      font-size: 55px;
+      line-height: 80px;
+     }
+    }
+

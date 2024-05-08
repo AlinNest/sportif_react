@@ -1,0 +1,92 @@
+.navigation{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+ 
+ .navigation_home, .navigation_shorts {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-right: 15px;
+    padding-top: 50px;
+  }
+
+  .navigation_home::before{
+    content: "";
+    background: url('../../assets/home.png') 0 0 no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding-right: 10px;
+  }
+  
+  .navigation_shorts::before{
+    content: "";
+    background: url('../../assets/right-arrow.png') 0 10px no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding-right: 10px;
+  }
+
+  .card{
+    font-weight: 500;
+    text-transform: none;
+  }
+
+  @media screen and (max-width: 1327px){
+     .navigation_home, .navigation_shorts {
+      font-size: 20px;
+    } 
+  }
+
+
+  @media screen and (max-width: 1252px) {
+
+     .navigation_home, .navigation_shorts {
+      font-size: 18px;
+      padding-top: 40px;
+    }
+    }
+
+  @media screen and (max-width: 1072px) {
+    .navigation_home, .navigation_shorts {
+      font-size: 15px;
+      padding-top: 30px;
+    }
+  }
+
+  @media screen and (max-width: 932px) {
+     .navigation_shorts::before{
+      padding-right: 0;
+     }
+
+     .navigation_home, .navigation_shorts {
+      font-size: 15px;
+      padding-top: 25px;
+    }
+    }
+
+  @media screen and (max-width: 767px) {
+  .navigation_home, .navigation_shorts {
+      font-size: 10px;
+    }
+
+    .navigation_home::before{
+      width: 20px;
+      height: 20px;
+      background-size: 45%;
+      background-position-y: 6px;
+  }  
+
+    .navigation_shorts::before{
+      width: 20px;
+      height: 20px;
+      background-size: 45%;
+  }
+}

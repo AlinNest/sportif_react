@@ -1,0 +1,126 @@
+.section_shirtdiscount{
+  background-color: #E5E5E5;
+}
+
+.shirtdiscount{
+  padding-top: 107px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards_shirtdiscount{
+  display: flex;
+  width: 40%;
+}
+
+.card_shirtdiscount{
+  position: relative;
+}
+
+.img_shirtdiscount{
+  width: 100%;
+  height: 516px;
+  object-fit: cover;
+  display: block;
+  overflow: hidden;
+}
+
+.item_shirtdiscount{
+  position: absolute;
+  width: 100%;
+  height: 53px;
+  background-color: #A04955;
+  opacity: 0.8;
+  top: 431px;
+  color: #FFFFFF;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 16px;
+}
+
+.decription_shirtdiscount{
+  padding-top: 35px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: start;
+  margin-bottom: 25px;
+}
+
+.button_shirtdiscount{
+  max-width: 66%;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  padding: 15px 18px 5px 18px;
+  margin: 60px auto;
+}
+
+@media screen and (max-width: 1252px) {
+  
+  .shirtdiscount{
+   padding-top: 80px;
+  }
+ 
+  .button_shirtdiscount{
+   font-size: 20px;
+   line-height: 27px;
+  }
+ 
+  .decription_shirtdiscount{
+   font-size: 20px;
+   line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 1072px) {
+   
+  .button_shirtdiscount{
+   font-size: 15px;
+   line-height: 20px;
+   padding: 20px 18px 0px 18px;
+  }
+ 
+  .decription_shirtdiscount{
+   font-size: 15px;
+   line-height: 20px;
+  }
+ 
+  .item_shirtdiscount{
+   font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 932px) {
+ .item_shirtdiscount{
+   font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+.cards_shirtdiscount{
+     width: 80%;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .item_shirtdiscount{
+    font-size: 20px;
+   }
+  }
+  

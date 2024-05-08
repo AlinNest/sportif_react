@@ -1,0 +1,161 @@
+.catalog_filter{
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 60px;
+  border: 2px solid #A04955;
+  min-width: 315px;
+  }
+
+  .filter_header{
+    margin: 25px 0 12px 25px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .filter_header_arrow{
+    padding-right: 20px;
+  }
+
+  .filter_header_arrow::before{
+    content: "";
+    background: url('../../assets/right-arrow.png') 0 10px no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: rotate(-90deg);
+  }
+
+
+  .arrow_active::before{
+    transform: rotate(+90deg);
+  }
+
+  .btn{
+    display: flex;
+  }
+
+  .checkbox:checked + label {
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.2), 0 0 0 3px rgba(146, 9, 87, 0.389);
+  }
+
+  hr{
+    background-color: #A04955;
+    margin: 20px auto;
+    width: 80%;
+    height: 1px;
+  }
+
+  .catalog_menu_color{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 260px;
+    padding: 5px 10px 10px 20px;
+  }
+  
+  .catalog_menu_color input{
+    display: none;
+  }
+
+  .menu_color label{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .catalog_menu_price{
+    display: flex;
+    max-width: 260px;
+    padding:10px 20px;
+  }
+  
+  .catalog_menu_price_input{
+    max-width: 105px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+  }
+
+  .price{
+    font-weight: 500;
+  }
+
+  .catalog_menu_rating{
+    display: flex;
+  }
+  
+  .catalog_menu_rating label{
+    height: 30px;
+    padding: 2px 10px 2px 20px;
+  }
+  
+  .catalog_menu_rating input{
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  .rating{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-around;
+    }
+  
+    .clean{
+      border: 2px solid rgb(58, 6, 6);
+      border-radius: 5px;
+      background-color: #A04955;
+      color: #FFFFFF;
+      width: 80px;
+      height: 30px;
+      margin-left: 100px;
+      margin-bottom: 20px;
+    }
+
+    .filter_header_arrow.arrow_active::before{
+      content: "";
+      background: url('../../assets/right-arrow.png') 0 10px no-repeat;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      transform: rotate(+90deg);
+    }
+
+    .hide{
+      display: none;
+    }
+
+
+    @media screen and (max-width: 1072px) { 
+      .catalog_filter{
+        position: absolute;
+        left: -200%;
+        transition: all 1.5s ease 0s;
+        width: 90px;
+      }
+      
+      .filter_active{
+        left: 0;
+        transition: all 1.5s ease 0s;
+        z-index: 5;
+      }
+     
+      }
+
